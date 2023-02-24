@@ -1,106 +1,82 @@
-*{
-    margin: 0;
-    padding: 0;
-    font-family: sans-serif;
+
+body {
+    text-align: center;
 }
 
-.hero {
-    width: 100%;
-    height: 100vh;
-    background-image: url(images/thomas-jensen-iSh9yqYSd08-unsplash.jpg);
-    background-size: cover;
-    position: relative;
-    overflow: hidden;
-}
-.hero1 {
-    width: 100%;
-    height: 100vh;
-    background-image: url(images/testsetstes.jpeg);
-    background-size: cover;
-    position: relative;
-    overflow: hidden;
-
-}
-
-.logo {
-    width: 100px;
-    cursor: pointer;
-}
-
-.navbar {
-    width: 85%;
-    height: 15%;
-    margin: auto;
+.box {
     display: flex;
+    flex-direction: column;
+    justify-content: center;
     align-items: center;
-    justify-content: space-between;
+    background-color: #f0f0f0;
+    padding: 30px;
+    width: 30%;
+    height: 200px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+    cursor: pointer;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
 }
 
-.button {
-    
-    background: transparent;
-    border: 1px;
-    border-radius: 100px;
-    padding: 0px;
-    cursor: pointer;
+/* Add some basic styles to the divs */
+.container {
     display: flex;
-    outline:none;
-
-}
-.content {
-    color: #fbfcfd;
-    position: absolute;
-    top: 50%;
-    left: 8%;
-    transform: translateY(-50%);
-    z-index: 2;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px; /* Add gap between rows */
+    margin-top: 50px; /* Add some margin to top */
+    margin: 0 auto
 }
 
-h1 {
-    font-size: 45px;
-    margin: 10px 0 30px;
-    line-height: 80px;
-
-}
-.side-bar {
-    width: 50px;
-    height: 100vh;
-    background: linear-gradient(#5c636e,#393e46);
-    position: absolute;
-    right: 0;
-    top: 0;
-}
-.menu {
-    display: block;
-    width: 25px;
-    margin: 40px auto 0;
-    cursor: pointer;
-
-}
-
-
-.social-links img, .useful-links img {
-    width: 25px;
-    margin: 5px auto;
-    cursor: pointer;
-
-}
-
-.social-links {
-    width: 50px;
+.row {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 100px; /* Add gap between columns */
     text-align: center;
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
 }
 
-.useful-links {
-
-    width: 50px;
+div {
+    width: 650px; /* Increase width */
+    height: 550px; /* Increase height */
+    background-color: rgb(255, 255, 255);
+    color: white;
     text-align: center;
-    position: absolute;
-    top: 95%;
-    transform: translateY(-80%);
+    line-height: 150px;
+    font-size: 30px; /* Increase font size */
+    font-weight: bold;
+    text-align: center;
+}
 
+/* Customize the colors of each div */
+#div1 {
+    background-color: red;
+    background-image: url('https://th.bing.com/th/id/OIP.JFqCUpsBSQ6MM3bIcKw-7QHaE7?pid=ImgDet&rs=1');
+}
 
+#div2 {
+    background-color: orange;
+    background-image: url('https://th.bing.com/th/id/OIP.JFqCUpsBSQ6MM3bIcKw-7QHaE7?pid=ImgDet&rs=1');
+}
+
+#div3 {
+    background-color: yellow;
+    background-image: url('https://th.bing.com/th/id/OIP.JFqCUpsBSQ6MM3bIcKw-7QHaE7?pid=ImgDet&rs=1');
+}
+
+#div4 {
+    background-color: green;
+    background-image: url('https://th.bing.com/th/id/OIP.JFqCUpsBSQ6MM3bIcKw-7QHaE7?pid=ImgDet&rs=1');
+}
+
+#div5 {
+    background-color: purple;
+    background-image: url('https://th.bing.com/th/id/OIP.JFqCUpsBSQ6MM3bIcKw-7QHaE7?pid=ImgDet&rs=1');
+}
+
+#div6 {
+    background-color: pink;
+    background-image: url('https://th.bing.com/th/id/OIP.JFqCUpsBSQ6MM3bIcKw-7QHaE7?pid=ImgDet&rs=1');
 }
